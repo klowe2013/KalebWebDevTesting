@@ -1,0 +1,97 @@
+body{
+    font-family:sans-serif;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+}
+
+ul a{
+    text-decoration: None;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+#main-header{
+    background-color: black;
+    color: white;
+    padding: 10px
+}
+
+#main-nav{
+    color: black;
+    background-color: rgb(158, 146, 238);
+    padding: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: 900;
+}
+
+
+#main-nav a {
+    color: black;
+    text-decoration: None;
+    border: 2px black;
+}
+
+#main-nav a:hover {
+    color: white;
+}
+
+#main-nav li {
+    display: inline;
+    border: 2px black;
+    padding: 5px 10px;
+}
+
+#contact-email {
+    list-style-image: url('./images/emailIcon.png')
+}
+
+#contact-phone {
+    list-style-image: url('./images/phoneIcon.png')
+}
+
+#contact-github {
+    list-style-image: url('./images/githubIcon.png')
+}
+
+#contact-linkedin {
+    list-style-image: url('./images/linkedin.png')
+}
+/*
+
+.my_nav{
+    background-color:lightsteelblue;
+    width: 200px;
+    border: 2px solid black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    display: inline;
+}
+
+li a {
+    display: inline;
+    width: 200px;
+    text-align: center;
+    border: 1px solid black;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+li a:hover {
+    background-color:mediumslateblue;
+    color: white;
+}
+*/
